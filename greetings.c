@@ -8,7 +8,7 @@ int get_greetingSize(){
 }
 
 int get_greeting(char * buffer){
- 	if (strncpy(buffer, greeting,sizeof(greeting)) != NULL) {
+ 	if (strncpy(buffer, greeting,strlen(greeting)) != NULL) {
 	 	return 0;
 	}
 	return -1;

@@ -1,1 +1,2 @@
-void get_greeting(char * buffer);
+int get_greetingSize();
+int get_greeting(char * buffer);
